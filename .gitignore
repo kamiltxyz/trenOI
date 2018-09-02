@@ -30,7 +30,8 @@
 *.exe
 *.out
 *.app
-bin/*
+*.e
+bin/
 
 # tests
 *.in
