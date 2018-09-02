@@ -112,11 +112,19 @@ VL primes = {
 
 ///////////////////////////////////////////////////////////////////////
 
-
+ll A, B;
 
 int main() {
 	newio();
 
-  return 0;
+	cin >> A >> B;
+
+	if(abs(A - B) <= 1) {
+		cout << "Bob" << endl;
+	} else {
+		cout << "Alicja" << endl;	
+	}
+
+	return 0;
 }
 
